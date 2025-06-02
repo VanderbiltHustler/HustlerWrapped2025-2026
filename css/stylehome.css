@@ -1,0 +1,348 @@
+
+/* FONTS */
+/* add any @import statements for novelty fonts you want to use here ↓ */
+
+/* COLORS */
+/* set any colors you plan to use throughout the buildout here */
+/* then you can adjust the color value easily */
+:root {
+  --gradient-start: #D6B464; /* Start color of the gradient */
+  --gradient-mid: #8E6600; /* End color of the gradient */
+  --gradient-end: #433209; /* End color of the gradient */
+}
+
+body {
+  background: linear-gradient(to bottom, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
+  /* Gradient background from --gradient-start to --gradient-end */
+  height: 100%; /* Set height to cover the entire page */
+}
+
+header {
+  /* add header image below */
+  /* can use a file path before the photo is uploaded to ceo */
+  background: url('https://iili.io/JXEm9OG.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+}
+
+/* SET ANY MORE STYLES YOU WANT HERE: */
+.image-behind-text {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://iili.io/J6AIiFI.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.containers-wrapper {
+  display: block;
+  flex-wrap: wrap; /* This will allow items to wrap to the next line on smaller screens*/
+  justify-content: center; /* Centers the items horizontally */
+  align-items: center;
+  margin-bottom: 20px; /* Add space of 20 pixels below the container */
+}
+
+
+.rounded-rectangle-container {
+  border-radius: 50px; /* Adjust this value to control the roundness of the corners */
+  padding: 50px; /* Space between the text and the borders of the container */
+  width: 40%; /* Width of the container */
+  height: 100%; /* Height of the container */
+  margin: auto;
+  text-align: center; /* Center-aligns the text */
+}
+
+.rounded-rectangle-image {
+  border-radius: 10px; /* Adjust the radius as needed */
+  overflow: hidden;
+}
+
+.rounded-rectangle-image-2 {
+  border-radius: 10px; /* Adjust the radius as needed */
+  overflow: hidden;
+  padding: 20px 0; /* Add top and bottom padding of 20 pixels */
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row; /* Arrange items horizontally */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  border-radius: 0px; /* Adjust the radius as needed */
+  margin-bottom: 10px;
+}
+
+.image-container .vertical {
+  width: 320px; /* Set width to 320px */
+  height: 400px; /* Set height to 400px */
+  object-fit: cover; /* Crop images to fit */
+  margin: 0 5px; /* Add horizontal margin between images */
+}
+
+.image-container .vertical2 {
+  width: 230px; /* Set width to 320px */
+  height: 320px; /* Set height to 400px */
+  object-fit: cover; /* Crop images to fit */
+  margin: 0 5px; /* Add horizontal margin between images */
+}
+
+
+
+.rounded-rectangle-container#cont1 {
+  background-color: #6901BA; 
+}
+
+.rounded-rectangle-container#cont2 {
+  background-color: #06c455; 
+}
+
+.rounded-rectangle-container#cont3 {
+  background-color: #b1016b; 
+}
+
+.rounded-rectangle-container#cont4 {
+  background-color: #2730b5; 
+}
+
+.rounded-rectangle-container#cont5 {
+  background-color: #298c77; 
+}
+
+.rounded-rectangle-container#cont6 {
+  background-color: #8c2956; 
+}
+
+.rounded-rectangle-container#cont7 {
+  background-color: #5b1780; 
+}
+
+.rounded-rectangle-container#cont8 {
+  background-color: #413a91; 
+}
+
+.rounded-rectangle-container#cont9 {
+  background-color: #5b8050; 
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /* Allows items to wrap if needed */
+}
+
+.content {
+  display: none;
+}
+
+/*DOT BUTTONS*/
+.dot-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-content: center;
+  cursor: pointer;
+}
+
+.dot {
+  width: 30px; /* Adjust width for bigger dots */
+  height: 30px; /* Adjust height for bigger dots */
+  border-radius: 50%; /* Make it a circle */
+  background-color: #D6B464; /* Default color */
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.dot:hover {
+  background-color: #c3c3c3;
+}
+
+.dot:active {
+  background-color: #c3c3c3;
+}
+
+.active-dot {
+  background-color: #c3c3c3;
+}
+
+.dot p { /*body subhead star*/
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  justify-content: middle;
+  color: #433209;
+  padding-top: 2px;
+}
+
+/*BUTTONS*/
+.buttons-container {
+  display: flex;
+  align-content: center;
+  gap: 20px;
+  width: 1000px;
+}
+
+.toggle-btn {
+  padding: 20px 20px;
+  margin: 10px;
+  background-color: #D6B464;
+  color: #D6B464;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.highlighted-section {
+  background-color: #D6B464;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 5px; /* Adjusted for inline display */
+  cursor: pointer; /* Changes the mouse cursor to indicate it's clickable */
+  border: none; /* Removes the default button border */
+  width: 100%;
+}
+
+.toggle-btn:hover {
+  background-color: #c3c3c3;
+}
+
+.toggle-btn:active {
+  background-color: #c3c3c3;
+}
+
+.button:hover {
+  background-color: #c3c3c3;
+}
+
+.button:active {
+  background-color: #c3c3c3;
+}
+
+.active-btn {
+  background-color: #c3c3c3;
+}
+
+.responsive-image {
+  max-width: 250px;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
+
+.responsive-image2 {
+  max-width: 1000px;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 10px; /* Adjust the radius as needed */
+}
+
+
+/* You can add hover effects if you like */
+
+.footer-logo {
+  max-width: 20%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain the image's aspect ratio */
+  display: block; /* Remove extra space below the image */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Optional: Add some space around the image */
+.container {
+  padding-top: 4px;
+  padding-bottom: 8px;
+}
+
+footer .col-md-3 {
+  margin-bottom: 20px; /* Adjust the value for the desired space */
+}
+
+
+/* MEDIA QUERIES FROM SMALLEST TO LARGEST = MOBILE FIRST */
+/* use these for responsive design — you can set different styles based on how wide the screen is */
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default */
+
+/* Small devices (landscape phones, 576px and up) */
+/*@media (min-width: 576px) { 
+    
+} */
+
+@media (max-width: 1000px) {
+  header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .buttons-container {
+    display: flex;
+    gap: 1px;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .rounded-rectangle-container {
+    border-radius: 50px; /* Adjust this value to control the roundness of the corners */
+    padding: 50px; /* Space between the text and the borders of the container */
+    width: 70%; /* Width of the container */
+    height: 100%; /* Height of the container */
+    margin: auto;
+    text-align: center; /* Center-aligns the text */
+  }
+}
+
+@media (max-width: 1000px) {
+  .image-container {
+    display: flex;
+    flex-direction: column; /* Arrange items horizontally */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    border-radius: 0px; /* Adjust the radius as needed */
+    margin-bottom: 10px;
+  }
+  
+  .image-container .vertical {
+    width: 320px; /* Set width to 320px */
+    height: 400px; /* Set height to 400px */
+    object-fit: cover; /* Crop images to fit */
+    margin: 10px; /* Add horizontal margin between images */
+  }
+  
+  .image-container .vertical2 {
+    width: 320px; /* Set width to 320px */
+    height: 400px; /* Set height to 400px */
+    object-fit: cover; /* Crop images to fit */
+    margin: 10px; /* Add horizontal margin between images */
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+/*@media (min-width: 768px) {
+    header {
+        /* adjust header image positioning for larger devices if needed */
+        /* you can also change the header image for mobile here */
+        /* background-position: 50% 50%; 
+    } 
+  }
+*/
+
+
+/* Large devices (desktops, 992px and up) */
+/*@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+/*@media (min-width: 1200px) {
+
+}
+*/
