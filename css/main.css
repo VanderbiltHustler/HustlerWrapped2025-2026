@@ -94,6 +94,21 @@ h5 { /* container text */
 
 }
 
+ul {
+    font-family: 'Georgia', serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    display: inline-block;
+    text-align: left;
+    padding-left: 2.5em;
+    margin: 16px 0;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
 h6 { /* footer1*/
     font-weight: 400;
     font-size: 16px;
