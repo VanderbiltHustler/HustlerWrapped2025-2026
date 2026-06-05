@@ -82,6 +82,14 @@ document.addEventListener('DOMContentLoaded', function() {
             if (targetContent) {
                 targetContent.style.display = 'block';
             }
+
+            // Editor's picks is much longer, so darken gradient start slightly so gold text is readable
+            if (targetId === 'editors-picks') {
+                document.body.style.background = 'linear-gradient(to bottom, #A88020, #8E6600, #433209)';
+            } else {
+                document.body.style.background = '';
+            }
+
         });
     });
 });
