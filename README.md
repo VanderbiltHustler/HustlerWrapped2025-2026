@@ -1,17 +1,17 @@
-# 2024-25 Hustler Wrapped
-Published: 5/13/2024 <br>
-### Every year, The Vanderbilt Hustler's editorial staff recaps the year in a "Spotify Wrapped" style format. Explore the reading trends, year in review and editor picks of the 2024-25 school year.
+# 2025-26 Hustler Wrapped
+Published: --- <br>
+### Every year, The Vanderbilt Hustler's editorial staff recaps the year in a "Spotify Wrapped" style format. Explore the reading trends, year in review and editor picks of the 2025-26 school year.
 
 ## Directory
 ```bash
 .
 └── docs
     ├── css
-    │   ├── main.css
-    │   ├── normalize.css
-    │   └── stylehome.css
+    │   ├── main.css
+    │   ├── normalize.css
+    │   └── stylehome.css
     ├── js
-    │   └── script.js
+    │   └── script.js
     ├── README.md
     └── index.html
 
@@ -21,18 +21,18 @@ Published: 5/13/2024 <br>
 ```
 
 ## Deployment History
-- 9/17/2024: Updated README
+- 6/5/2026: Initial deployment
 
 ## Credits
-- Writing | Zoe Abel, Kate Connell, Claire Gatlin, Jorie Fawcett, Aaditi Lele, Katherine Oung, Rachael Perrotta, Brina Ratangee, Josh Rehders, Andrew Wilf
-- Photography | George Albu, Barrie Barto, Abby Hoelscher, Chloe Kim, Olivia Noell, Katherine Oung, Josh Rehders, Nikita Rohila, Amelia Simpson, Alysa Suleiman, Savannah Walske, Sara West
-- Graphics | Soha Bhutta, Jada Mitchum, Lexie Perez, Zarrin Zahid
-- Data Visualization | Rhea Patney, Katherine Oung
-- Web Design | Katherine Oung
+- Writing | Jacob Stoebner, Vincent Xu, Hailey Weiner, George Albu, Daniela Aguilar, Kate Connell, Lexie Perez, Alexander Cheng, Henry Oelhafen, Tamyra Johnson, Manu Navaneethakrishnan, Charlotte Castle, Rhea Patney, Corey Lochan
+- Photography | George Albu, Ophelia Lu, Michael Tung, Savannah Walske, Jo Anderson, Alex Brodeur, Andrew Lopez-Couto, Lana English
+- Graphics | Vincent Xu, Lexie Perez, Elias Haig Alves, Ram Martinez, Rachel Marlowe
+- Data Visualization | Corey Lochan
+- Web Design | Jesse Hao
 
 This project utilizes [Normalize.css](https://necolas.github.io/normalize.css/) and [Bootstrap](https://getbootstrap.com/).
 
 ## Powered by The Vanderbilt Hustler Data Team
 For questions, comments or curiosities: 
 - Hustler staff: Slack the #data team. 
-- The rest of the 🌎: [email](mailto:katherine.oung@vanderbilt.edu) Data Editor Katherine Oung
+- The rest of the 🌎: [email](mailto:jesse.z.hao@vanderbilt.edu) Deputy Data Editor Jesse Hao
