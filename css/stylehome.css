@@ -292,8 +292,8 @@ No media query for `xs` since this is the default */
 @media (max-width: 1000px) {
   .rounded-rectangle-container {
     border-radius: 50px; /* Adjust this value to control the roundness of the corners */
-    padding: 50px; /* Space between the text and the borders of the container */
-    width: 70%; /* Width of the container */
+    padding: 30px; /* Space between the text and the borders of the container */
+    width: 88%; /* Width of the container */
     height: 100%; /* Height of the container */
     margin: auto;
     text-align: center; /* Center-aligns the text */
